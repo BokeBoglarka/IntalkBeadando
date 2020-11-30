@@ -1,0 +1,253 @@
+
+div{
+    margin: 0;
+    display: inline-block;
+}
+.row{
+    display: block;
+    margin-bottom:10px;
+}
+.button{
+    height: 40px;
+    width: 150px;
+    background-color: #00457e;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1em;
+    border: 0;
+    margin-top: 20px;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: #0065b9;
+}
+.card{
+    text-align:center;
+    width:300px;
+    height:100%;
+    margin:auto;
+    display:block;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 50px;
+    border: 2px solid #00457e;
+    border-radius: 6px;
+}
+.card table{
+    width:100%;
+}
+.link{
+    margin-top:20px;
+    font-size: 1.1em;
+    color: #00457e;
+    font-weight: bold;
+}
+.card h1{
+    margin-bottom:30px;
+}
+.card .button{
+    margin-top:40px;
+}
+.background{
+    background-color: #e5e1d5;
+}
+.lefttext{
+    text-align:left;
+}
+.error{
+    color:red;
+}
+.siker{
+    float: right;
+    margin:0;
+}
+.kijelentkez{
+    float:right;
+}
+.usertable {
+    border: 2px solid black;
+    width: 100%;
+    background-color:#fff;
+    border-collapse: collapse;
+}
+.usertable td, .usertable th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.usertable tr:nth-child(odd){background-color: #f2f2f2;}
+
+.usertable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00457e;
+    color: #fff;
+    font-weight: 300;
+}
+.adduserBtn{
+    height: 35px;
+    width: 210px;
+    background-color: #00457e;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1em;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom:10px;
+    cursor: pointer;
+}
+.adduserBtn:hover{
+    background-color: #0065b9;
+}
+.cancelBtn{
+    height: 35px;
+    width: 100px;
+    background-color: #d5d5d5;
+    color: #000;
+    font-weight: 500;
+    font-size: 1em;
+    border: 0;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.cancelBtn:hover{
+    background-color: #ededed;
+}
+.addUserDiv{
+    width:350px;
+    height:100%;
+    display:block;
+    border: 2px solid #00457e;
+    border-radius: 6px;
+    padding:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align:center;
+    background-color:#fff;
+}
+.center{
+    text-align:center;
+}
+.deleteBtn{
+    height: 30px;
+    width: 100%;
+    color: #000;
+    font-weight: 500;
+    font-size: 1em;
+    border: 2px solid #00457e;
+    border-radius: 6px;
+    cursor: pointer;
+    background:#fff;
+}
+.deleteBtn:hover{
+    background-color: #00457e;
+    color:#fff;
+}
+.addUserDiv .adduserBtn{
+    margin-top:40px;
+}
+.uservotetable{
+    border: 2px solid black;
+    width: 100%;
+    background-color:#fff;
+    border-collapse: collapse;
+}
+.uservotetable td, .uservotetable th{
+    padding: 8px;
+}
+.uservotetable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00457e;
+    color: #fff;
+    font-weight: 300;
+
+}
+.votetable {
+    border: 1px solid black;
+    width: 50%;
+}
+.votetable td, .votetable th{
+    padding: 5px;
+}
+.votetable tr:nth-child(odd){background-color: #f2f2f2;}
+
+.votetable tr:hover {background-color: #ddd;}
+.title{
+    background-color:#00457e !important;
+    color:#fff !important;
+}
+.title th{
+    font-weight: bold;
+    text-align: left;
+    border: solid 1px black;
+    padding: 5px;
+}
+input[type="radio"] {
+    cursor:pointer;
+}
+.sendVoteTd{
+    border:0;
+}
+.sendVoteBtn{
+    height: 40px;
+    width: 200px;
+    background-color: #00457e;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1em;
+    border: 0;
+    margin-top: 20px;
+    cursor:pointer;
+}
+.sendVoteBtn:hover{
+    background-color: #0065b9;
+}
+header{
+    display: block;
+    padding: 0;
+    color: #000;
+    height:25px;
+}
+.kijelentkez input[type="submit"]{
+    background-color: #fff;
+    color:#00457e;
+    padding:5px;
+    cursor:pointer;
+    font-size:0.8em;
+    font-weight:600;
+    border:0;
+}
+.kijelentkez input[type="submit"]:hover{
+    background-color: #00457e;
+    color:#fff;
+}
+caption{
+    font-weight: bold;
+    font-size: 2em;
+}
+.addUserDiv form table{
+    width:100%;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.voteListTable{
+    border: 1px solid #00457e;
+    width: 50%;
+    border-collapse: collapse;
+}
+.voteListTable td{
+    padding:5px;
+    border: solid 1px #00457e;
+}
+
+.voteListTable th{
+    font-weight: bold;
+    text-align: left;
+    border: solid 3px #00457e;;
+}
+.zerotopmargin{
+    margin-top: 0 !important;
+}
